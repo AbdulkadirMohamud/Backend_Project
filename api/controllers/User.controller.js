@@ -2,7 +2,7 @@
 import bcrypt from 'bcrypt'
 import jwt from 'jsonwebtoken'
 import dotenv from 'dotenv'
-import userModel from '../models/User.model.js'
+import userModel from '../models/user.model.js'
 dotenv.config()
 const SECRET_KEY = process.env.SECRET_KEY
 // Sign Up - POST

@@ -3,6 +3,7 @@ import {
   
   createProperty,
   deleteProperty,
+  getProperties,
   updateImages,
   updateProperty,
 } from "../controllers/property.controller.js";
