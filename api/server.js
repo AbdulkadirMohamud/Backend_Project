@@ -19,6 +19,9 @@ mongoose.connect(process.env.DATABASE_URL, {
 })
 
 // routes
+server.get("/", (req,res) => {
+    res.status(200).json({success: true, message: "api is working"})
+} )
 server.use("/api/users", userRouter)
 server.use("/api/properties", propertiesRouter)
 
