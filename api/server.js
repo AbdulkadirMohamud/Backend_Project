@@ -1,7 +1,7 @@
 import express from 'express'
 import mongoose from 'mongoose'
 import dotenv from 'dotenv'
-import userRouter from './routers/User.router.js'
+import userRouter from './routers/user.router.js'
 import propertiesRouter from './routers/property.router.js'
 
 const server = express()
